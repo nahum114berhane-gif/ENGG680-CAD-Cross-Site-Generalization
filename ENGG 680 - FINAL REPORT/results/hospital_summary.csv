@@ -1,0 +1,5 @@
+hospital,patients,with_disease,without_disease,disease_%,median_age,male_%
+Cleveland,303,139,164,45.9,56.0,68.0
+Hungary,294,106,188,36.1,49.0,72.4
+Switzerland,123,115,8,93.5,56.0,91.9
+LongBeach,200,149,51,74.5,60.0,97.0

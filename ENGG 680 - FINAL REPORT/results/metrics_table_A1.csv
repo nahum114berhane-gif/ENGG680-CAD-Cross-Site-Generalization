@@ -1,0 +1,4 @@
+test_hospital,n_test,Disease Rate,Sensitivity (Recall),Specificity,Precision,Accuracy
+Hungary,294,0.36,0.75,0.84,0.72,0.8
+Switzerland,123,0.93,0.82,0.62,0.97,0.8
+LongBeach,200,0.74,0.76,0.53,0.82,0.7

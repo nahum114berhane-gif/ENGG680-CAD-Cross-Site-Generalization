@@ -1,0 +1,589 @@
+setup,tier,model,test_hospital,feature,importance
+A1: Cleveland,accessible,LogReg,TRAINING DATA,age,0.02671959992981223
+A1: Cleveland,accessible,LogReg,TRAINING DATA,sex,0.0769126162484646
+A1: Cleveland,accessible,LogReg,TRAINING DATA,cp,0.21123881382698712
+A1: Cleveland,accessible,LogReg,TRAINING DATA,trestbps,0.01081549394630632
+A1: Cleveland,accessible,LogReg,TRAINING DATA,chol,0.0073828741884540364
+A1: Cleveland,accessible,LogReg,TRAINING DATA,fbs,0.00017108264607823553
+A1: Cleveland,accessible,LogReg,Hungary,age,0.01184514251304707
+A1: Cleveland,accessible,LogReg,Hungary,sex,0.037153753512645604
+A1: Cleveland,accessible,LogReg,Hungary,cp,0.19684865515857092
+A1: Cleveland,accessible,LogReg,Hungary,trestbps,0.0072009233239663795
+A1: Cleveland,accessible,LogReg,Hungary,chol,0.009883079084705038
+A1: Cleveland,accessible,LogReg,Hungary,fbs,6.0216780409572124e-05
+A1: Cleveland,accessible,LogReg,Switzerland,age,-0.01918478260869575
+A1: Cleveland,accessible,LogReg,Switzerland,sex,-0.02695652173913051
+A1: Cleveland,accessible,LogReg,Switzerland,cp,0.2713043478260869
+A1: Cleveland,accessible,LogReg,Switzerland,trestbps,0.0015217391304347184
+A1: Cleveland,accessible,LogReg,Switzerland,chol,0.0
+A1: Cleveland,accessible,LogReg,Switzerland,fbs,0.0010869565217390686
+A1: Cleveland,accessible,LogReg,LongBeach,age,0.04101855507303585
+A1: Cleveland,accessible,LogReg,LongBeach,sex,0.0073957099618370496
+A1: Cleveland,accessible,LogReg,LongBeach,cp,0.14392025266482422
+A1: Cleveland,accessible,LogReg,LongBeach,trestbps,0.0173509672325305
+A1: Cleveland,accessible,LogReg,LongBeach,chol,0.00609948677457548
+A1: Cleveland,accessible,LogReg,LongBeach,fbs,0.0018423476773258619
+A1: Cleveland,accessible,RandomForest,TRAINING DATA,age,0.09594227057378489
+A1: Cleveland,accessible,RandomForest,TRAINING DATA,sex,0.07145551851201967
+A1: Cleveland,accessible,RandomForest,TRAINING DATA,cp,0.27280005264081425
+A1: Cleveland,accessible,RandomForest,TRAINING DATA,trestbps,0.04719907001228283
+A1: Cleveland,accessible,RandomForest,TRAINING DATA,chol,0.05805404456922266
+A1: Cleveland,accessible,RandomForest,TRAINING DATA,fbs,0.006553781365151845
+A1: Cleveland,accessible,RandomForest,Hungary,age,0.02204185066238462
+A1: Cleveland,accessible,RandomForest,Hungary,sex,0.023705339221196366
+A1: Cleveland,accessible,RandomForest,Hungary,cp,0.24453532717784024
+A1: Cleveland,accessible,RandomForest,Hungary,trestbps,0.007256122039341684
+A1: Cleveland,accessible,RandomForest,Hungary,chol,0.004824869530309172
+A1: Cleveland,accessible,RandomForest,Hungary,fbs,0.0019369731031714354
+A1: Cleveland,accessible,RandomForest,Switzerland,age,0.031141304347826092
+A1: Cleveland,accessible,RandomForest,Switzerland,sex,-0.008858695652173908
+A1: Cleveland,accessible,RandomForest,Switzerland,cp,0.23336956521739136
+A1: Cleveland,accessible,RandomForest,Switzerland,trestbps,0.0014130434782608891
+A1: Cleveland,accessible,RandomForest,Switzerland,chol,0.0
+A1: Cleveland,accessible,RandomForest,Switzerland,fbs,0.00391304347826088
+A1: Cleveland,accessible,RandomForest,LongBeach,age,0.025180944861165976
+A1: Cleveland,accessible,RandomForest,LongBeach,sex,0.004566390314515056
+A1: Cleveland,accessible,RandomForest,LongBeach,cp,0.16124490064482172
+A1: Cleveland,accessible,RandomForest,LongBeach,trestbps,0.013942624029477569
+A1: Cleveland,accessible,RandomForest,LongBeach,chol,0.015863929464403247
+A1: Cleveland,accessible,RandomForest,LongBeach,fbs,0.013475457297012805
+A1: Cleveland,accessible,GradBoost,TRAINING DATA,age,0.0619999122653096
+A1: Cleveland,accessible,GradBoost,TRAINING DATA,sex,0.07247982102123171
+A1: Cleveland,accessible,GradBoost,TRAINING DATA,cp,0.21073433935778202
+A1: Cleveland,accessible,GradBoost,TRAINING DATA,trestbps,0.022231970521143986
+A1: Cleveland,accessible,GradBoost,TRAINING DATA,chol,0.026748113704158537
+A1: Cleveland,accessible,GradBoost,TRAINING DATA,fbs,0.006424372696964276
+A1: Cleveland,accessible,GradBoost,Hungary,age,0.01575923323966285
+A1: Cleveland,accessible,GradBoost,Hungary,sex,0.03159122842232041
+A1: Cleveland,accessible,GradBoost,Hungary,cp,0.22922019269369734
+A1: Cleveland,accessible,GradBoost,Hungary,trestbps,0.004149939783219647
+A1: Cleveland,accessible,GradBoost,Hungary,chol,0.004320553994379828
+A1: Cleveland,accessible,GradBoost,Hungary,fbs,0.002283219590525909
+A1: Cleveland,accessible,GradBoost,Switzerland,age,0.026304347826086906
+A1: Cleveland,accessible,GradBoost,Switzerland,sex,-0.027771739130434837
+A1: Cleveland,accessible,GradBoost,Switzerland,cp,0.2757065217391304
+A1: Cleveland,accessible,GradBoost,Switzerland,trestbps,-0.011032608695652235
+A1: Cleveland,accessible,GradBoost,Switzerland,chol,0.0
+A1: Cleveland,accessible,GradBoost,Switzerland,fbs,0.0015760869565216384
+A1: Cleveland,accessible,GradBoost,LongBeach,age,0.01708777470719829
+A1: Cleveland,accessible,GradBoost,LongBeach,sex,0.004322937228582691
+A1: Cleveland,accessible,GradBoost,LongBeach,cp,0.14249901302803
+A1: Cleveland,accessible,GradBoost,LongBeach,trestbps,0.004520331622581919
+A1: Cleveland,accessible,GradBoost,LongBeach,chol,0.008080010527700998
+A1: Cleveland,accessible,GradBoost,LongBeach,fbs,0.01662060797473358
+A1: Cleveland,accessible_no_chol,LogReg,TRAINING DATA,age,0.029498596244955256
+A1: Cleveland,accessible_no_chol,LogReg,TRAINING DATA,sex,0.07087866292331985
+A1: Cleveland,accessible_no_chol,LogReg,TRAINING DATA,cp,0.21586462537287243
+A1: Cleveland,accessible_no_chol,LogReg,TRAINING DATA,trestbps,0.01210080715915074
+A1: Cleveland,accessible_no_chol,LogReg,TRAINING DATA,fbs,3.728724337606071e-05
+A1: Cleveland,accessible_no_chol,LogReg,Hungary,age,0.013513649136892791
+A1: Cleveland,accessible_no_chol,LogReg,Hungary,sex,0.03651645925331187
+A1: Cleveland,accessible_no_chol,LogReg,Hungary,cp,0.2124347651545564
+A1: Cleveland,accessible_no_chol,LogReg,Hungary,trestbps,0.010151545564030473
+A1: Cleveland,accessible_no_chol,LogReg,Hungary,fbs,0.0002860297069449236
+A1: Cleveland,accessible_no_chol,LogReg,Switzerland,age,-0.018641304347826015
+A1: Cleveland,accessible_no_chol,LogReg,Switzerland,sex,-0.02630434782608685
+A1: Cleveland,accessible_no_chol,LogReg,Switzerland,cp,0.2686956521739131
+A1: Cleveland,accessible_no_chol,LogReg,Switzerland,trestbps,0.001739130434782732
+A1: Cleveland,accessible_no_chol,LogReg,Switzerland,fbs,0.0010869565217392241
+A1: Cleveland,accessible_no_chol,LogReg,LongBeach,age,0.04504540071061972
+A1: Cleveland,accessible_no_chol,LogReg,LongBeach,sex,0.0064482168706408325
+A1: Cleveland,accessible_no_chol,LogReg,LongBeach,cp,0.1499736807474667
+A1: Cleveland,accessible_no_chol,LogReg,LongBeach,trestbps,0.015745492828003603
+A1: Cleveland,accessible_no_chol,LogReg,LongBeach,fbs,0.0010725095407290274
+A1: Cleveland,accessible_no_chol,RandomForest,TRAINING DATA,age,0.10787199508685741
+A1: Cleveland,accessible_no_chol,RandomForest,TRAINING DATA,sex,0.08991709071766983
+A1: Cleveland,accessible_no_chol,RandomForest,TRAINING DATA,cp,0.27519520968590994
+A1: Cleveland,accessible_no_chol,RandomForest,TRAINING DATA,trestbps,0.06308562905772948
+A1: Cleveland,accessible_no_chol,RandomForest,TRAINING DATA,fbs,0.012166608176873173
+A1: Cleveland,accessible_no_chol,RandomForest,Hungary,age,0.01965826977117623
+A1: Cleveland,accessible_no_chol,RandomForest,Hungary,sex,0.03052488960256925
+A1: Cleveland,accessible_no_chol,RandomForest,Hungary,cp,0.25270222802087516
+A1: Cleveland,accessible_no_chol,RandomForest,Hungary,trestbps,0.015119429947812114
+A1: Cleveland,accessible_no_chol,RandomForest,Hungary,fbs,0.0019520272982737953
+A1: Cleveland,accessible_no_chol,RandomForest,Switzerland,age,0.02288043478260865
+A1: Cleveland,accessible_no_chol,RandomForest,Switzerland,sex,-0.014836956521739154
+A1: Cleveland,accessible_no_chol,RandomForest,Switzerland,cp,0.24500000000000002
+A1: Cleveland,accessible_no_chol,RandomForest,Switzerland,trestbps,-0.029347826086956554
+A1: Cleveland,accessible_no_chol,RandomForest,Switzerland,fbs,0.0011956521739129977
+A1: Cleveland,accessible_no_chol,RandomForest,LongBeach,age,0.03458349782866169
+A1: Cleveland,accessible_no_chol,RandomForest,LongBeach,sex,0.002316094222924103
+A1: Cleveland,accessible_no_chol,RandomForest,LongBeach,cp,0.17193051717331229
+A1: Cleveland,accessible_no_chol,RandomForest,LongBeach,trestbps,0.008744571654165067
+A1: Cleveland,accessible_no_chol,RandomForest,LongBeach,fbs,0.0029543360968549036
+A1: Cleveland,accessible_no_chol,GradBoost,TRAINING DATA,age,0.0666783646253728
+A1: Cleveland,accessible_no_chol,GradBoost,TRAINING DATA,sex,0.06937401298473407
+A1: Cleveland,accessible_no_chol,GradBoost,TRAINING DATA,cp,0.21032856641516048
+A1: Cleveland,accessible_no_chol,GradBoost,TRAINING DATA,trestbps,0.02857518862958406
+A1: Cleveland,accessible_no_chol,GradBoost,TRAINING DATA,fbs,0.005687401298473327
+A1: Cleveland,accessible_no_chol,GradBoost,Hungary,age,0.018122741870734614
+A1: Cleveland,accessible_no_chol,GradBoost,Hungary,sex,0.028537735849056545
+A1: Cleveland,accessible_no_chol,GradBoost,Hungary,cp,0.23254716981132076
+A1: Cleveland,accessible_no_chol,GradBoost,Hungary,trestbps,0.0016308711360898732
+A1: Cleveland,accessible_no_chol,GradBoost,Hungary,fbs,0.002175331192292207
+A1: Cleveland,accessible_no_chol,GradBoost,Switzerland,age,0.009184782608695697
+A1: Cleveland,accessible_no_chol,GradBoost,Switzerland,sex,-0.03249999999999995
+A1: Cleveland,accessible_no_chol,GradBoost,Switzerland,cp,0.26005434782608694
+A1: Cleveland,accessible_no_chol,GradBoost,Switzerland,trestbps,-0.016521739130434754
+A1: Cleveland,accessible_no_chol,GradBoost,Switzerland,fbs,0.0009782608695652728
+A1: Cleveland,accessible_no_chol,GradBoost,LongBeach,age,0.029253849190682968
+A1: Cleveland,accessible_no_chol,GradBoost,LongBeach,sex,0.003039873667587811
+A1: Cleveland,accessible_no_chol,GradBoost,LongBeach,cp,0.14461113304382153
+A1: Cleveland,accessible_no_chol,GradBoost,LongBeach,trestbps,0.010034215028293204
+A1: Cleveland,accessible_no_chol,GradBoost,LongBeach,fbs,0.0072114751941044775
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,age,0.02455255307948766
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,sex,0.07648710300052644
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,cp,0.20389103351465168
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,trestbps,0.009582821547639942
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,chol,0.005584313037374977
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,fbs,1.1102230246251566e-17
+A1: Cleveland,+ecg,LogReg,TRAINING DATA,restecg,0.006694156869626289
+A1: Cleveland,+ecg,LogReg,Hungary,age,0.00982286230429541
+A1: Cleveland,+ecg,LogReg,Hungary,sex,0.04228723404255315
+A1: Cleveland,+ecg,LogReg,Hungary,cp,0.1963368125250903
+A1: Cleveland,+ecg,LogReg,Hungary,trestbps,0.006347852268165343
+A1: Cleveland,+ecg,LogReg,Hungary,chol,0.010452629466077812
+A1: Cleveland,+ecg,LogReg,Hungary,fbs,9.032517061416945e-05
+A1: Cleveland,+ecg,LogReg,Hungary,restecg,0.00013548775592125972
+A1: Cleveland,+ecg,LogReg,Switzerland,age,-0.022771739130434822
+A1: Cleveland,+ecg,LogReg,Switzerland,sex,-0.026086956521739167
+A1: Cleveland,+ecg,LogReg,Switzerland,cp,0.2834782608695652
+A1: Cleveland,+ecg,LogReg,Switzerland,trestbps,-0.00016304347826091582
+A1: Cleveland,+ecg,LogReg,Switzerland,chol,0.0
+A1: Cleveland,+ecg,LogReg,Switzerland,fbs,-5.551115123125783e-17
+A1: Cleveland,+ecg,LogReg,Switzerland,restecg,-0.004891304347826109
+A1: Cleveland,+ecg,LogReg,LongBeach,age,0.038682721410711975
+A1: Cleveland,+ecg,LogReg,LongBeach,sex,0.003829451243584725
+A1: Cleveland,+ecg,LogReg,LongBeach,cp,0.13914330833004346
+A1: Cleveland,+ecg,LogReg,LongBeach,trestbps,0.015811290959336775
+A1: Cleveland,+ecg,LogReg,LongBeach,chol,0.004191340965916579
+A1: Cleveland,+ecg,LogReg,LongBeach,fbs,0.0006579813133306911
+A1: Cleveland,+ecg,LogReg,LongBeach,restecg,-0.01590998815633631
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,age,0.07219248991051072
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,sex,0.06176083523425172
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,cp,0.2648863835760661
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,trestbps,0.03695165818564663
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,chol,0.049420951044042885
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,fbs,0.005645727320582683
+A1: Cleveland,+ecg,RandomForest,TRAINING DATA,restecg,0.03094402526759086
+A1: Cleveland,+ecg,RandomForest,Hungary,age,0.019384785226816536
+A1: Cleveland,+ecg,RandomForest,Hungary,sex,0.019364712966680075
+A1: Cleveland,+ecg,RandomForest,Hungary,cp,0.25522380570052194
+A1: Cleveland,+ecg,RandomForest,Hungary,trestbps,0.006209855479727022
+A1: Cleveland,+ecg,RandomForest,Hungary,chol,0.003989361702127703
+A1: Cleveland,+ecg,RandomForest,Hungary,fbs,0.001711160176635962
+A1: Cleveland,+ecg,RandomForest,Hungary,restecg,0.0013598956242472648
+A1: Cleveland,+ecg,RandomForest,Switzerland,age,0.01994565217391312
+A1: Cleveland,+ecg,RandomForest,Switzerland,sex,-0.005108695652173834
+A1: Cleveland,+ecg,RandomForest,Switzerland,cp,0.29320652173913053
+A1: Cleveland,+ecg,RandomForest,Switzerland,trestbps,0.011358695652173933
+A1: Cleveland,+ecg,RandomForest,Switzerland,chol,0.0
+A1: Cleveland,+ecg,RandomForest,Switzerland,fbs,0.0019565217391304566
+A1: Cleveland,+ecg,RandomForest,Switzerland,restecg,-0.002173913043478204
+A1: Cleveland,+ecg,RandomForest,LongBeach,age,0.028424792735886294
+A1: Cleveland,+ecg,RandomForest,LongBeach,sex,0.005040136860113143
+A1: Cleveland,+ecg,RandomForest,LongBeach,cp,0.15942887222002894
+A1: Cleveland,+ecg,RandomForest,LongBeach,trestbps,0.008349782866166566
+A1: Cleveland,+ecg,RandomForest,LongBeach,chol,0.01333070140807997
+A1: Cleveland,+ecg,RandomForest,LongBeach,fbs,0.005211212001579124
+A1: Cleveland,+ecg,RandomForest,LongBeach,restecg,-0.009724963811027798
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,age,0.0643753290050886
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,sex,0.07471705562379366
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,cp,0.21007413581330056
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,trestbps,0.021795490436918762
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,chol,0.02463151430075451
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,fbs,0.006415599227934721
+A1: Cleveland,+ecg,GradBoost,TRAINING DATA,restecg,0.00634979821021231
+A1: Cleveland,+ecg,GradBoost,Hungary,age,0.01703883982336426
+A1: Cleveland,+ecg,GradBoost,Hungary,sex,0.030963970293055153
+A1: Cleveland,+ecg,GradBoost,Hungary,cp,0.23017362505018077
+A1: Cleveland,+ecg,GradBoost,Hungary,trestbps,0.0050632276194301105
+A1: Cleveland,+ecg,GradBoost,Hungary,chol,0.005376856684062725
+A1: Cleveland,+ecg,GradBoost,Hungary,fbs,0.002002207948615131
+A1: Cleveland,+ecg,GradBoost,Hungary,restecg,0.0010588117222000038
+A1: Cleveland,+ecg,GradBoost,Switzerland,age,0.01065217391304345
+A1: Cleveland,+ecg,GradBoost,Switzerland,sex,-0.030489130434782685
+A1: Cleveland,+ecg,GradBoost,Switzerland,cp,0.27413043478260857
+A1: Cleveland,+ecg,GradBoost,Switzerland,trestbps,-0.019184782608695727
+A1: Cleveland,+ecg,GradBoost,Switzerland,chol,0.0
+A1: Cleveland,+ecg,GradBoost,Switzerland,fbs,0.0001630434782608048
+A1: Cleveland,+ecg,GradBoost,Switzerland,restecg,-0.008641304347826163
+A1: Cleveland,+ecg,GradBoost,LongBeach,age,0.025825766548229934
+A1: Cleveland,+ecg,GradBoost,LongBeach,sex,0.004566390314514968
+A1: Cleveland,+ecg,GradBoost,LongBeach,cp,0.14340044742729302
+A1: Cleveland,+ecg,GradBoost,LongBeach,trestbps,0.006843005658639179
+A1: Cleveland,+ecg,GradBoost,LongBeach,chol,0.007250954072904226
+A1: Cleveland,+ecg,GradBoost,LongBeach,fbs,0.014034741413343743
+A1: Cleveland,+ecg,GradBoost,LongBeach,restecg,-0.005178312935912699
+A1: Cleveland,full,LogReg,TRAINING DATA,age,0.003013686611686217
+A1: Cleveland,full,LogReg,TRAINING DATA,sex,0.05670293033865589
+A1: Cleveland,full,LogReg,TRAINING DATA,cp,0.08274697315318476
+A1: Cleveland,full,LogReg,TRAINING DATA,trestbps,0.009054220038603233
+A1: Cleveland,full,LogReg,TRAINING DATA,chol,0.004728899806983699
+A1: Cleveland,full,LogReg,TRAINING DATA,fbs,-3.070714160383625e-05
+A1: Cleveland,full,LogReg,TRAINING DATA,restecg,0.0028996315143006933
+A1: Cleveland,full,LogReg,TRAINING DATA,thalach,0.02294262151254608
+A1: Cleveland,full,LogReg,TRAINING DATA,exang,0.010501842428496189
+A1: Cleveland,full,LogReg,TRAINING DATA,oldpeak,0.04244165643095282
+A1: Cleveland,full,LogReg,Hungary,age,-0.00029606583701331514
+A1: Cleveland,full,LogReg,Hungary,sex,0.03166399036531507
+A1: Cleveland,full,LogReg,Hungary,cp,0.060312123645122354
+A1: Cleveland,full,LogReg,Hungary,trestbps,-0.0011089923725411954
+A1: Cleveland,full,LogReg,Hungary,chol,0.008154355680449577
+A1: Cleveland,full,LogReg,Hungary,fbs,1.5054195102293112e-05
+A1: Cleveland,full,LogReg,Hungary,restecg,-0.0008530710558009247
+A1: Cleveland,full,LogReg,Hungary,thalach,0.007873344038538687
+A1: Cleveland,full,LogReg,Hungary,exang,0.015440586109995935
+A1: Cleveland,full,LogReg,Hungary,oldpeak,0.03921116017663584
+A1: Cleveland,full,LogReg,Switzerland,age,-0.01641304347826088
+A1: Cleveland,full,LogReg,Switzerland,sex,-0.018369565217391293
+A1: Cleveland,full,LogReg,Switzerland,cp,0.156304347826087
+A1: Cleveland,full,LogReg,Switzerland,trestbps,0.00043478260869567187
+A1: Cleveland,full,LogReg,Switzerland,chol,0.0
+A1: Cleveland,full,LogReg,Switzerland,fbs,0.0
+A1: Cleveland,full,LogReg,Switzerland,restecg,-0.008369565217391284
+A1: Cleveland,full,LogReg,Switzerland,thalach,0.04043478260869565
+A1: Cleveland,full,LogReg,Switzerland,exang,0.01717391304347826
+A1: Cleveland,full,LogReg,Switzerland,oldpeak,-0.022608695652173893
+A1: Cleveland,full,LogReg,LongBeach,age,0.009909198578760325
+A1: Cleveland,full,LogReg,LongBeach,sex,0.007961573891301454
+A1: Cleveland,full,LogReg,LongBeach,cp,0.04853270167127251
+A1: Cleveland,full,LogReg,LongBeach,trestbps,0.011633109619686787
+A1: Cleveland,full,LogReg,LongBeach,chol,0.007856296881168567
+A1: Cleveland,full,LogReg,LongBeach,fbs,0.00047374654559806384
+A1: Cleveland,full,LogReg,LongBeach,restecg,-0.007119357810238214
+A1: Cleveland,full,LogReg,LongBeach,thalach,0.009277536517962847
+A1: Cleveland,full,LogReg,LongBeach,exang,0.02245032241084355
+A1: Cleveland,full,LogReg,LongBeach,oldpeak,0.05008553757073296
+A1: Cleveland,full,RandomForest,TRAINING DATA,age,0.0293823477803123
+A1: Cleveland,full,RandomForest,TRAINING DATA,sex,0.031545007896122114
+A1: Cleveland,full,RandomForest,TRAINING DATA,cp,0.08784435865941394
+A1: Cleveland,full,RandomForest,TRAINING DATA,trestbps,0.013905948412002078
+A1: Cleveland,full,RandomForest,TRAINING DATA,chol,0.017134585014914893
+A1: Cleveland,full,RandomForest,TRAINING DATA,fbs,0.0013467274960519138
+A1: Cleveland,full,RandomForest,TRAINING DATA,restecg,0.013778733111072116
+A1: Cleveland,full,RandomForest,TRAINING DATA,thalach,0.030865064046323887
+A1: Cleveland,full,RandomForest,TRAINING DATA,exang,0.015937006492367102
+A1: Cleveland,full,RandomForest,TRAINING DATA,oldpeak,0.04196788910335143
+A1: Cleveland,full,RandomForest,Hungary,age,0.0018416298675230647
+A1: Cleveland,full,RandomForest,Hungary,sex,0.01843637093536732
+A1: Cleveland,full,RandomForest,Hungary,cp,0.08750000000000005
+A1: Cleveland,full,RandomForest,Hungary,trestbps,0.0015455640305098606
+A1: Cleveland,full,RandomForest,Hungary,chol,0.0022280208751505937
+A1: Cleveland,full,RandomForest,Hungary,fbs,-0.000562023283821722
+A1: Cleveland,full,RandomForest,Hungary,restecg,-0.0006473303894018346
+A1: Cleveland,full,RandomForest,Hungary,thalach,-0.001470293054997962
+A1: Cleveland,full,RandomForest,Hungary,exang,0.02271176234444001
+A1: Cleveland,full,RandomForest,Hungary,oldpeak,0.04402348454435969
+A1: Cleveland,full,RandomForest,Switzerland,age,-0.003043478260869548
+A1: Cleveland,full,RandomForest,Switzerland,sex,-0.016739130434782545
+A1: Cleveland,full,RandomForest,Switzerland,cp,0.1432608695652174
+A1: Cleveland,full,RandomForest,Switzerland,trestbps,0.01217391304347829
+A1: Cleveland,full,RandomForest,Switzerland,chol,0.0
+A1: Cleveland,full,RandomForest,Switzerland,fbs,0.00043478260869567187
+A1: Cleveland,full,RandomForest,Switzerland,restecg,-0.0067391304347826034
+A1: Cleveland,full,RandomForest,Switzerland,thalach,0.0047826086956522015
+A1: Cleveland,full,RandomForest,Switzerland,exang,-0.01163043478260869
+A1: Cleveland,full,RandomForest,Switzerland,oldpeak,-0.007934782608695633
+A1: Cleveland,full,RandomForest,LongBeach,age,0.007264113699170937
+A1: Cleveland,full,RandomForest,LongBeach,sex,0.006224503224108402
+A1: Cleveland,full,RandomForest,LongBeach,cp,0.07422029214370313
+A1: Cleveland,full,RandomForest,LongBeach,trestbps,0.0016712725358599579
+A1: Cleveland,full,RandomForest,LongBeach,chol,0.009665745492827971
+A1: Cleveland,full,RandomForest,LongBeach,fbs,-0.0014343992630609036
+A1: Cleveland,full,RandomForest,LongBeach,restecg,-0.002316094222924103
+A1: Cleveland,full,RandomForest,LongBeach,thalach,0.02343729438083958
+A1: Cleveland,full,RandomForest,LongBeach,exang,0.020015791551519956
+A1: Cleveland,full,RandomForest,LongBeach,oldpeak,0.052375312541123833
+A1: Cleveland,full,GradBoost,TRAINING DATA,age,0.021628794525355332
+A1: Cleveland,full,GradBoost,TRAINING DATA,sex,0.04453851552904019
+A1: Cleveland,full,GradBoost,TRAINING DATA,cp,0.08257808387436391
+A1: Cleveland,full,GradBoost,TRAINING DATA,trestbps,0.018391384453412894
+A1: Cleveland,full,GradBoost,TRAINING DATA,chol,0.012655729075276378
+A1: Cleveland,full,GradBoost,TRAINING DATA,fbs,0.0
+A1: Cleveland,full,GradBoost,TRAINING DATA,restecg,0.0023293560273731973
+A1: Cleveland,full,GradBoost,TRAINING DATA,thalach,0.02988901561677485
+A1: Cleveland,full,GradBoost,TRAINING DATA,exang,0.010484295490436923
+A1: Cleveland,full,GradBoost,TRAINING DATA,oldpeak,0.051530970345674686
+A1: Cleveland,full,GradBoost,Hungary,age,0.0024387796065835966
+A1: Cleveland,full,GradBoost,Hungary,sex,0.023278803693295803
+A1: Cleveland,full,GradBoost,Hungary,cp,0.0927639502207948
+A1: Cleveland,full,GradBoost,Hungary,trestbps,0.0006372942593335429
+A1: Cleveland,full,GradBoost,Hungary,chol,0.005316639903653097
+A1: Cleveland,full,GradBoost,Hungary,fbs,0.0
+A1: Cleveland,full,GradBoost,Hungary,restecg,-8.279807306307285e-05
+A1: Cleveland,full,GradBoost,Hungary,thalach,0.006445704536330754
+A1: Cleveland,full,GradBoost,Hungary,exang,0.017337414692894338
+A1: Cleveland,full,GradBoost,Hungary,oldpeak,0.03997390606182251
+A1: Cleveland,full,GradBoost,Switzerland,age,-0.007282608695652215
+A1: Cleveland,full,GradBoost,Switzerland,sex,-0.02347826086956527
+A1: Cleveland,full,GradBoost,Switzerland,cp,0.15402173913043474
+A1: Cleveland,full,GradBoost,Switzerland,trestbps,0.0230434782608695
+A1: Cleveland,full,GradBoost,Switzerland,chol,0.0
+A1: Cleveland,full,GradBoost,Switzerland,fbs,0.0
+A1: Cleveland,full,GradBoost,Switzerland,restecg,0.0003260869565216984
+A1: Cleveland,full,GradBoost,Switzerland,thalach,0.004728260869565159
+A1: Cleveland,full,GradBoost,Switzerland,exang,0.013369565217391266
+A1: Cleveland,full,GradBoost,Switzerland,oldpeak,0.0013586956521738803
+A1: Cleveland,full,GradBoost,LongBeach,age,0.00041452822739828087
+A1: Cleveland,full,GradBoost,LongBeach,sex,0.008639294644032037
+A1: Cleveland,full,GradBoost,LongBeach,cp,0.07873404395315166
+A1: Cleveland,full,GradBoost,LongBeach,trestbps,-0.0045269114357152865
+A1: Cleveland,full,GradBoost,LongBeach,chol,0.002914857218054956
+A1: Cleveland,full,GradBoost,LongBeach,fbs,0.0
+A1: Cleveland,full,GradBoost,LongBeach,restecg,-0.0015396762731939018
+A1: Cleveland,full,GradBoost,LongBeach,thalach,0.007507566785103237
+A1: Cleveland,full,GradBoost,LongBeach,exang,0.012422687195683579
+A1: Cleveland,full,GradBoost,LongBeach,oldpeak,0.05617844453217522
+A2: Cleveland+Hungary,accessible,LogReg,TRAINING DATA,age,0.019210343228200432
+A2: Cleveland+Hungary,accessible,LogReg,TRAINING DATA,sex,0.04452806122448982
+A2: Cleveland+Hungary,accessible,LogReg,TRAINING DATA,cp,0.2312268089053804
+A2: Cleveland+Hungary,accessible,LogReg,TRAINING DATA,trestbps,0.0058916975881262105
+A2: Cleveland+Hungary,accessible,LogReg,TRAINING DATA,chol,0.0069515306122449605
+A2: Cleveland+Hungary,accessible,LogReg,TRAINING DATA,fbs,0.0009815630797774255
+A2: Cleveland+Hungary,accessible,LogReg,Switzerland,age,-0.012771739130434756
+A2: Cleveland+Hungary,accessible,LogReg,Switzerland,sex,-0.020760869565217388
+A2: Cleveland+Hungary,accessible,LogReg,Switzerland,cp,0.28597826086956524
+A2: Cleveland+Hungary,accessible,LogReg,Switzerland,trestbps,0.009891304347826124
+A2: Cleveland+Hungary,accessible,LogReg,Switzerland,chol,0.0
+A2: Cleveland+Hungary,accessible,LogReg,Switzerland,fbs,-0.0003260869565217428
+A2: Cleveland+Hungary,accessible,LogReg,LongBeach,age,0.03249111725227007
+A2: Cleveland+Hungary,accessible,LogReg,LongBeach,sex,0.005369127516778527
+A2: Cleveland+Hungary,accessible,LogReg,LongBeach,cp,0.15077641794973023
+A2: Cleveland+Hungary,accessible,LogReg,LongBeach,trestbps,0.0073759705224371915
+A2: Cleveland+Hungary,accessible,LogReg,LongBeach,chol,0.007323332017370699
+A2: Cleveland+Hungary,accessible,LogReg,LongBeach,fbs,0.013251743650480341
+A2: Cleveland+Hungary,accessible,RandomForest,TRAINING DATA,age,0.08783743042671613
+A2: Cleveland+Hungary,accessible,RandomForest,TRAINING DATA,sex,0.06157931354359923
+A2: Cleveland+Hungary,accessible,RandomForest,TRAINING DATA,cp,0.3076837894248608
+A2: Cleveland+Hungary,accessible,RandomForest,TRAINING DATA,trestbps,0.05035308441558443
+A2: Cleveland+Hungary,accessible,RandomForest,TRAINING DATA,chol,0.055636595547309806
+A2: Cleveland+Hungary,accessible,RandomForest,TRAINING DATA,fbs,0.006322472170686477
+A2: Cleveland+Hungary,accessible,RandomForest,Switzerland,age,0.037391304347826136
+A2: Cleveland+Hungary,accessible,RandomForest,Switzerland,sex,-0.0057065217391304105
+A2: Cleveland+Hungary,accessible,RandomForest,Switzerland,cp,0.23554347826086963
+A2: Cleveland+Hungary,accessible,RandomForest,Switzerland,trestbps,-0.00532608695652167
+A2: Cleveland+Hungary,accessible,RandomForest,Switzerland,chol,0.0
+A2: Cleveland+Hungary,accessible,RandomForest,Switzerland,fbs,0.004673913043478317
+A2: Cleveland+Hungary,accessible,RandomForest,LongBeach,age,0.03396499539413085
+A2: Cleveland+Hungary,accessible,RandomForest,LongBeach,sex,0.0014475588893275825
+A2: Cleveland+Hungary,accessible,RandomForest,LongBeach,cp,0.14747335175681012
+A2: Cleveland+Hungary,accessible,RandomForest,LongBeach,trestbps,0.011468614291354151
+A2: Cleveland+Hungary,accessible,RandomForest,LongBeach,chol,0.01242268719568369
+A2: Cleveland+Hungary,accessible,RandomForest,LongBeach,fbs,0.0015528358994604918
+A2: Cleveland+Hungary,accessible,GradBoost,TRAINING DATA,age,0.04582908163265309
+A2: Cleveland+Hungary,accessible,GradBoost,TRAINING DATA,sex,0.041910366419295
+A2: Cleveland+Hungary,accessible,GradBoost,TRAINING DATA,cp,0.240733418367347
+A2: Cleveland+Hungary,accessible,GradBoost,TRAINING DATA,trestbps,0.01237418831168836
+A2: Cleveland+Hungary,accessible,GradBoost,TRAINING DATA,chol,0.015630217996289476
+A2: Cleveland+Hungary,accessible,GradBoost,TRAINING DATA,fbs,0.0035598330241187527
+A2: Cleveland+Hungary,accessible,GradBoost,Switzerland,age,0.021793478260869515
+A2: Cleveland+Hungary,accessible,GradBoost,Switzerland,sex,-0.021250000000000047
+A2: Cleveland+Hungary,accessible,GradBoost,Switzerland,cp,0.27706521739130435
+A2: Cleveland+Hungary,accessible,GradBoost,Switzerland,trestbps,-0.023152173913043528
+A2: Cleveland+Hungary,accessible,GradBoost,Switzerland,chol,0.0
+A2: Cleveland+Hungary,accessible,GradBoost,Switzerland,fbs,0.00010869565217389577
+A2: Cleveland+Hungary,accessible,GradBoost,LongBeach,age,0.029398605079615704
+A2: Cleveland+Hungary,accessible,GradBoost,LongBeach,sex,0.004776944334780852
+A2: Cleveland+Hungary,accessible,GradBoost,LongBeach,cp,0.1538031319910514
+A2: Cleveland+Hungary,accessible,GradBoost,LongBeach,trestbps,0.0064876957494406475
+A2: Cleveland+Hungary,accessible,GradBoost,LongBeach,chol,0.0042308198447163605
+A2: Cleveland+Hungary,accessible,GradBoost,LongBeach,fbs,0.009527569417028514
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,TRAINING DATA,age,0.02177875695732835
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,TRAINING DATA,sex,0.04262117346938774
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,TRAINING DATA,cp,0.24256841372912802
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,TRAINING DATA,trestbps,0.008044410946196612
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,TRAINING DATA,fbs,0.001609461966604797
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,Switzerland,age,-0.01603260869565213
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,Switzerland,sex,-0.020760869565217367
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,Switzerland,cp,0.28445652173913044
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,Switzerland,trestbps,0.003369565217391346
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,Switzerland,fbs,-0.00043478260869566076
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,LongBeach,age,0.038860376365311165
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,LongBeach,sex,0.004566390314515023
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,LongBeach,cp,0.15817212791156723
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,LongBeach,trestbps,0.008494538755099267
+A2: Cleveland+Hungary,accessible_no_chol,LogReg,LongBeach,fbs,0.009955257270693418
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,TRAINING DATA,age,0.1034531539888682
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,TRAINING DATA,sex,0.06669584879406301
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,TRAINING DATA,cp,0.305761827458256
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,TRAINING DATA,trestbps,0.06714807513914653
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,TRAINING DATA,fbs,0.010039424860853375
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,Switzerland,age,0.003749999999999987
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,Switzerland,sex,-0.019293478260869624
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,Switzerland,cp,0.19271739130434784
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,Switzerland,trestbps,-0.06543478260869565
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,Switzerland,fbs,0.0003260869565217317
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,LongBeach,age,0.04868403737333863
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,LongBeach,sex,0.001579155151993672
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,LongBeach,cp,0.1609553888669562
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,LongBeach,trestbps,0.017515462560863292
+A2: Cleveland+Hungary,accessible_no_chol,RandomForest,LongBeach,fbs,0.011363337281221231
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,TRAINING DATA,age,0.0505745593692022
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,TRAINING DATA,sex,0.04279568645640073
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,TRAINING DATA,cp,0.24615433673469383
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,TRAINING DATA,trestbps,0.017708140074211474
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,TRAINING DATA,fbs,0.004272379406307947
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,Switzerland,age,0.03271739130434788
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,Switzerland,sex,-0.021902173913043454
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,Switzerland,cp,0.28423913043478266
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,Switzerland,trestbps,-0.010380434782608661
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,Switzerland,fbs,-0.00021739130434775822
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,LongBeach,age,0.03845900776417951
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,LongBeach,sex,0.0009343334649295709
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,LongBeach,cp,0.15530332938544547
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,LongBeach,trestbps,0.006606132385840258
+A2: Cleveland+Hungary,accessible_no_chol,GradBoost,LongBeach,fbs,0.007626003421502814
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,age,0.016822240259740207
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,sex,0.046091141001855185
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,cp,0.22791280148423
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,trestbps,0.006147379406307896
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,chol,0.007407235621521224
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,fbs,0.0007832792207791428
+A2: Cleveland+Hungary,+ecg,LogReg,TRAINING DATA,restecg,0.0035592532467531245
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,age,-0.01820652173913041
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,sex,-0.02065217391304349
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,cp,0.29021739130434787
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,trestbps,0.0005978260869564766
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,chol,0.0
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,fbs,-0.0003260869565217206
+A2: Cleveland+Hungary,+ecg,LogReg,Switzerland,restecg,-0.00423913043478259
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,age,0.03418212922752998
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,sex,0.006750888274772993
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,cp,0.15017107514146597
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,trestbps,0.00969206474536124
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,chol,0.009994736149493377
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,fbs,0.013804447953678134
+A2: Cleveland+Hungary,+ecg,LogReg,LongBeach,restecg,-0.001105408606395597
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,age,0.06973388218923944
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,sex,0.04885204081632666
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,cp,0.3005762987012987
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,trestbps,0.039207444341373
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,chol,0.0490462662337663
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,fbs,0.004856794990723667
+A2: Cleveland+Hungary,+ecg,RandomForest,TRAINING DATA,restecg,0.030383232838590103
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,age,0.01456521739130422
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,sex,-0.012934782608695784
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,cp,0.2522826086956521
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,trestbps,-0.0320108695652175
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,chol,0.0
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,fbs,0.0024999999999999025
+A2: Cleveland+Hungary,+ecg,RandomForest,Switzerland,restecg,-0.026304347826087048
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,age,0.02887222002895118
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,sex,0.0006974601921305279
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,cp,0.15877089090669821
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,trestbps,0.010613238584024198
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,chol,9.211738386628587e-05
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,fbs,0.005487564153178049
+A2: Cleveland+Hungary,+ecg,RandomForest,LongBeach,restecg,0.0024871693643900407
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,age,0.04423353432282012
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,sex,0.04169005102040825
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,cp,0.2403635204081634
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,trestbps,0.011047077922078031
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,chol,0.014446892393321031
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,fbs,0.0033000927643785706
+A2: Cleveland+Hungary,+ecg,GradBoost,TRAINING DATA,restecg,0.004733882189239447
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,age,0.020217391304347798
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,sex,-0.022173913043478266
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,cp,0.2793478260869565
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,trestbps,-0.02771739130434786
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,chol,0.0
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,fbs,-0.0007608695652173925
+A2: Cleveland+Hungary,+ecg,GradBoost,Switzerland,restecg,-0.0026630434782608627
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,age,0.0345571785761285
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,sex,0.003868930122384584
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,cp,0.15151993683379397
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,trestbps,0.0015791551519937052
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,chol,-0.0010461902881957696
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,fbs,0.00892222660876436
+A2: Cleveland+Hungary,+ecg,GradBoost,LongBeach,restecg,-0.006007369390709272
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,age,0.002328385899814589
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,sex,0.030205241187384168
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,cp,0.0749814471243044
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,trestbps,0.0008627087198516903
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,chol,0.0052620593692023435
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,fbs,-0.00029104823747672093
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,restecg,0.0022286641929500474
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,thalach,0.006676716141001937
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,exang,0.019354128014842365
+A2: Cleveland+Hungary,full,LogReg,TRAINING DATA,oldpeak,0.058382421150278384
+A2: Cleveland+Hungary,full,LogReg,Switzerland,age,-0.013586956521739135
+A2: Cleveland+Hungary,full,LogReg,Switzerland,sex,-0.017608695652173934
+A2: Cleveland+Hungary,full,LogReg,Switzerland,cp,0.15293478260869567
+A2: Cleveland+Hungary,full,LogReg,Switzerland,trestbps,-0.005978260869565211
+A2: Cleveland+Hungary,full,LogReg,Switzerland,chol,0.0
+A2: Cleveland+Hungary,full,LogReg,Switzerland,fbs,0.0015217391304348181
+A2: Cleveland+Hungary,full,LogReg,Switzerland,restecg,-0.008260869565217377
+A2: Cleveland+Hungary,full,LogReg,Switzerland,thalach,0.011847826086956548
+A2: Cleveland+Hungary,full,LogReg,Switzerland,exang,0.02326086956521739
+A2: Cleveland+Hungary,full,LogReg,Switzerland,oldpeak,-0.02978260869565219
+A2: Cleveland+Hungary,full,LogReg,LongBeach,age,0.005316489011712044
+A2: Cleveland+Hungary,full,LogReg,LongBeach,sex,0.006803526779839475
+A2: Cleveland+Hungary,full,LogReg,LongBeach,cp,0.05374391367285171
+A2: Cleveland+Hungary,full,LogReg,LongBeach,trestbps,0.0009606527174628177
+A2: Cleveland+Hungary,full,LogReg,LongBeach,chol,0.002789840768522134
+A2: Cleveland+Hungary,full,LogReg,LongBeach,fbs,0.006303460981708075
+A2: Cleveland+Hungary,full,LogReg,LongBeach,restecg,-0.002131859455191487
+A2: Cleveland+Hungary,full,LogReg,LongBeach,thalach,-0.0020002631925253645
+A2: Cleveland+Hungary,full,LogReg,LongBeach,exang,0.028964337412817464
+A2: Cleveland+Hungary,full,LogReg,LongBeach,oldpeak,0.06085011185682322
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,age,0.0271173469387757
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,sex,0.024463126159554906
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,cp,0.11441558441558457
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,trestbps,0.016105055658627243
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,chol,0.018773191094619824
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,fbs,0.0015306122448981107
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,restecg,0.01657583487940647
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,thalach,0.020811688311688514
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,exang,0.019755333951762655
+A2: Cleveland+Hungary,full,RandomForest,TRAINING DATA,oldpeak,0.06438659554731
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,age,0.004021739130434754
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,sex,-0.007173913043478286
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,cp,0.16967391304347826
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,trestbps,0.00630434782608692
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,chol,0.0
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,fbs,0.002391304347826073
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,restecg,-0.013260869565217437
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,thalach,0.009130434782608665
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,exang,0.016521739130434754
+A2: Cleveland+Hungary,full,RandomForest,Switzerland,oldpeak,-0.01293478260869566
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,age,0.014975654691406725
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,sex,0.00098697196999602
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,cp,0.05820502697723382
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,trestbps,1.3159626266567858e-05
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,chol,0.005428345834978243
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,fbs,0.00880378997236475
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,restecg,0.009145940255296714
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,thalach,-0.0028819581523885198
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,exang,0.023266219239373564
+A2: Cleveland+Hungary,full,RandomForest,LongBeach,oldpeak,0.06292933280694825
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,age,0.01367404916512055
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,sex,0.023821892393320866
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,cp,0.08444805194805186
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,trestbps,0.006231447124304124
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,chol,0.009439355287569496
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,fbs,0.0004017857142856185
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,restecg,0.0037268089053802524
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,thalach,0.01079371521335799
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,exang,0.022505797773654822
+A2: Cleveland+Hungary,full,GradBoost,TRAINING DATA,oldpeak,0.0705855751391465
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,age,-0.0007065217391304613
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,sex,-0.019565217391304412
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,cp,0.16086956521739126
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,trestbps,0.014782608695652122
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,chol,0.0
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,fbs,0.0
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,restecg,-0.009510869565217461
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,thalach,0.001358695652173858
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,exang,0.031956521739130384
+A2: Cleveland+Hungary,full,GradBoost,Switzerland,oldpeak,-0.012717391304347892
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,age,0.009119621002763523
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,sex,0.0037965521779181554
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,cp,0.059238057639163046
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,trestbps,0.000980392156862786
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,chol,-5.921831819976076e-05
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,fbs,-0.00026319252533224535
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,restecg,0.0037110146071851592
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,thalach,-0.0015265166469272007
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,exang,0.031780497433872866
+A2: Cleveland+Hungary,full,GradBoost,LongBeach,oldpeak,0.07324647979997366
